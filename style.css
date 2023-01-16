@@ -1,3 +1,8 @@
+body {
+  background-image: url(assets/img/fondo.jfif);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .io {
   height: 100px;
   width: 100px;
@@ -10,17 +15,17 @@
   background-image: url(assets/img/transformation-g0d755cf60_1920-768x400.jpg);
   background-repeat: no-repeat;
   background-size: contain;
-  width: 300px;
-  height: 200px;
+  width: 400px;
+  height: 300px;
 
 }
 
 .noticias2 {
   background-image: url(assets/img/descarga.jpeg);
   background-repeat: no-repeat;
-  background-size: cover;
-  width: 200px;
-  height: 200px;
+  background-size: contain;
+  width: 400px;
+  height: 300px;
 }
 
 h2 {
