@@ -26,3 +26,11 @@ function muestraReloj() {
 window.onload = function () {
     setInterval(muestraReloj, 1000);
 }
+$(document).ready(function(){
+    $("#boton1").click(function(){
+      $(".contenido").slideUp();
+    });
+  });
+  $("#boton2").click(function(){
+  $(".contenido").slideDown();
+});
