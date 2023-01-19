@@ -23,14 +23,14 @@ function muestraReloj() {
     document.getElementById("reloj").innerHTML = fecha + '  ' + horas + ':' + minutos + ':' + segundos;
 }
 
-window.onload = function () {
+window.onload = () => {
     setInterval(muestraReloj, 1000);
 }
-$(document).ready(function(){
-    $("#boton1").click(function(){
+$(document).ready( () => {
+    $("#boton1").click( () => {
       $(".contenido").slideUp();
     });
   });
-  $("#boton2").click(function(){
+  $("#boton2").click( () => {
   $(".contenido").slideDown();
 });
