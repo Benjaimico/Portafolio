@@ -5,6 +5,9 @@ function muestraReloj() {
     var minutos = fechaHora.getMinutes();
     var segundos = fechaHora.getSeconds();
     var day = fechaHora.getDay();
+    if (day <= 9) {
+      day = '0' + day
+    }
     var month = (fechaHora.getMonth() + 1);
     if (month <= 9) {
         month = '0' + month
